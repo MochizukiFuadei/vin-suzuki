@@ -362,6 +362,7 @@ p{
 .section-5{
     background: #6c568b; /* For browsers that do not support gradients */
     background: linear-gradient( #445083, #6c568b);
+    position: relative;
 }
 .section-5-title{
     text-align: center;
@@ -370,6 +371,11 @@ p{
     font-family: latobold;
     letter-spacing: 1.5vh;
     margin-bottom:20px;
+}
+.img-bawah{
+    position: absolute;
+    bottom:0;
+    right:0;
 }
 .box-10{
     border:dashed #FFF 2px;
@@ -383,6 +389,7 @@ p{
     margin-top:-50px;
     margin-bottom:20px;
     text-align: center;
+    background:#4f568b;
     border:dashed #FFF 2px;
 }
 .sub-title{
@@ -413,6 +420,64 @@ p{
 }
 .rounded{
     border-radius:10px;
+}
+.little-box{
+    padding:20px;
+    margin-top:70px;
+}
+.little-box-title{
+    padding:20px;
+    letter-spacing: 0.5vh;
+    font-family:latobold;
+}
+.box-11{
+    padding-top:20px;
+}
+.box-11-footer{
+    margin-top:20px;
+    font-size:1em!important;
+}
+.awankanan{
+    position: absolute;
+    top:25%;
+    right:0;
+    
+}
+.segitigakanan{
+    position: absolute;
+    top:45%;
+    right:8%;
+    
+}
+.balonkanan{
+    position: absolute;
+    bottom:8%;
+    right:5%;
+    
+}
+.mobilkanan{
+    position: absolute;
+    top:10%;
+    right:5%;
+    
+}
+.awankiri{
+    position: absolute;
+    top:40%;
+    left:0;
+    
+}
+.segitigakiri{
+    position: absolute;
+    top:20%;
+    left:8%;
+    
+}
+.balonkiri{
+    position: absolute;
+    bottom:10%;
+    left:2%;
+    
 }
 .section-13{
     background:repeat-x url('../images/13-bg.png') top left;
