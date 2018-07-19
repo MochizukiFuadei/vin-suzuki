@@ -195,6 +195,80 @@ p{
     background:#FFF;
     position:relative;
 }
+.title-head-def{
+    margin-left:auto;
+    margin-right:auto;
+    background:url('../images/2-ribbon-oren.png') no-repeat;
+    width:450px;
+    height:56px;
+    text-align:center;
+    color:#FFF;
+    font-size: 2.5em;
+    font-family: latobold;
+    letter-spacing: 0.3vh;
+
+}
+.section-3{
+    position:relative;
+    background:url('../images/2-background-grid.png') repeat;
+    padding-bottom:30px;
+}
+.road{
+    position:absolute;
+    width:100%;
+    top:260px;
+}
+.box-5{
+    background:#f89a1c;
+    padding:15px;
+}
+.bordered-dash{
+    border: #FFF dashed 2px;
+    padding:10px;
+}
+.box-6{
+    margin-top:100px;
+    padding:40px;
+}
+.box-6-title{
+    background:url('../images/2-pita-pink.png') right no-repeat;
+    background-size:100%;
+    width:240px;
+    height:35px;
+    text-align:left;
+    color:#FFF;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.box-8{
+    margin-top:95px;
+}
+.box-8-title{
+    background:url('../images/2-pita-ungu.png') right no-repeat;
+    background-size:100%;
+    width:240px;
+    height:35px;
+    text-align:left;
+    color:#FFF;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.box-9{
+    margin-top:40px;
+}
+.box-9-title{
+    background:url('../images/2-pita-biru.png') right no-repeat;
+    background-size:100%;
+    width:240px;
+    height:35px;
+    text-align:left;
+    color:#FFF;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.box-7{
+    margin-top:20px;
+}
 .section-13{
     background:repeat-x url('../images/13-bg.png') top left;
 }
