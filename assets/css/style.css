@@ -216,11 +216,17 @@ p{
 .road{
     position:absolute;
     width:100%;
-    top:260px;
+    top:29%;
 }
 .box-5{
     background:#f89a1c;
     padding:15px;
+    position: relative;
+}
+.qm{
+    position: absolute;
+    right:-30px;
+    top:-30px;
 }
 .bordered-dash{
     border: #FFF dashed 2px;
@@ -268,6 +274,90 @@ p{
 }
 .box-7{
     margin-top:20px;
+}
+
+.section-4{
+    position:relative;
+    background:#FFF;
+}
+
+.title-head-4{
+    margin-left:auto;
+    margin-right:auto;
+    background:url('../images/3-ribbon-pink.png') no-repeat;
+    width:660px;
+    height:56px;
+    text-align:center;
+    color:#FFF;
+    font-size: 2.5em;
+    font-family: latobold;
+    letter-spacing: 0.3vh;
+
+}
+.segitiga1{
+    position:absolute;
+    top:0;
+    left:10%;
+}
+.segitiga2{
+    position:absolute;
+    top:30%;
+    right:5%;
+}
+.segitiga3{
+    position:absolute;
+    bottom:15%;
+    left:0;
+}
+.impoinl{
+    margin-top:10px;
+    text-align: right;
+}
+.impoinr{
+    margin-top:10px;
+    text-align: left;
+}
+.poin1{
+    z-index: 1;
+}
+.poin2{
+    z-index: 0;
+    margin-top:-10px;
+}
+.poin3{
+    z-index: 1;
+    margin-left:30px;
+    margin-top:-20px;
+}
+.poin4{
+    z-index: 2;
+    margin-left:20px;
+    margin-top:-20px;
+}
+.poin5{
+    z-index: 3;
+    margin-top:-20px;
+}
+.poin6{
+    z-index: 1;
+}
+.poin7{
+    z-index: 0;
+    margin-top:-10px;
+}
+.poin8{
+    z-index: 1;
+    margin-left:30px;
+    margin-top:-20px;
+}
+.poin9{
+    z-index: 2;
+    margin-left:20px;
+    margin-top:-20px;
+}
+.poin10{
+    z-index: 3;
+    margin-top:-20px;
 }
 .section-13{
     background:repeat-x url('../images/13-bg.png') top left;
