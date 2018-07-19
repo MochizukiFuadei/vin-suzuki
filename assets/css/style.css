@@ -601,11 +601,50 @@ p{
     top:20%;
     left:0;
 }
+.section-8{
+    position: relative;
+}
+.iconkanan-8{
+    position:absolute;
+    top:20%;
+    right:0;
+}
+.iconkiri-8{
+    position:absolute;
+    top:30%;
+    left:0;
+}
+.mobilkanan-8{
+    position:absolute;
+    bottom:5%;
+    right:0;
+}
 .box-17{
     padding-top:20px;
 }
+.box-18{
+    padding:20px;
+}
+.box-19{
+    padding:20px;
+    border: dashed 2px #FF3a90;
+    margin-top:20px;
+}
 .section-13{
     background:repeat-x url('../images/13-bg.png') top left;
+}
+.kiri-8{
+    width: 48%;
+    float: left;
+    padding: 1%;
+}
+.kanan-8{
+    width: 49%;
+    float: left;
+    padding: 1%;
+}
+.wrp{
+    padding:9%;
 }
 strong{
     font-family:latobold!important;
