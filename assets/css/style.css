@@ -59,7 +59,7 @@ p{
     -webkit-transform: rotate(3deg); /* Safari */
     transform: rotate(3deg);
     float:left;
-    margin-left:60px;
+    margin-left:40px;
     margin-top:1%;
 }
 .spanp{
@@ -74,7 +74,7 @@ p{
     -webkit-transform: rotate(-3deg); /* Safari */
     transform: rotate(-3deg);
     float:right;
-    margin-right:60px;
+    margin-right:40px;
     margin-top:1%;
 }
 .text-orange{
