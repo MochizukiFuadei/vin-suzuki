@@ -95,8 +95,55 @@ p{
     background-size:100%;
     height:470px;
 }
+.title-box-2{
+    font-size:2em;
+    color:#ffff00;
+    font-family: latobold;
+    letter-spacing: 1vh;
+    margin-bottom:20px;
+}
+.body-box-2{
+    color:#FFF;
+    font-size:1.5em;
+    line-height: 1.375em;
+    font-family: latolight;
+}
 .sub-box-2{
-
+    padding-left:50px;
+    padding-right:20px;
+    padding-top:20px;
+}
+.colleft{
+    float:left;
+    width:50%;
+    margin-left:10%;
+}
+.colright{
+    float:left;
+    width:40%;
+    text-align: left;
+    margin-top:20px;
+}
+.emlight{
+    color:#ffff00;
+    font-weight:bold;
+}
+.emmiddle{
+    color:#ffff00;
+    font-size: 2.5em;
+    margin-top:15px;
+    font-family: latobold;
+}
+.emhigh{
+    color:#ffff00;
+    font-size: 3em;
+    font-family: latobold;
+}
+.lastcol{
+    margin-top:15px;
+}
+.box-footer{
+    font-size:0.5em!important;
 }
 .box-3{
     padding:20px;
