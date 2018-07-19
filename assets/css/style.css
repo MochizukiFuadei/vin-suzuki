@@ -630,9 +630,6 @@ p{
     border: dashed 2px #FF3a90;
     margin-top:20px;
 }
-.section-13{
-    background:repeat-x url('../images/13-bg.png') top left;
-}
 .kiri-8{
     width: 48%;
     float: left;
@@ -645,6 +642,48 @@ p{
 }
 .wrp{
     padding:9%;
+}
+.section-9{
+    position: relative;
+    background:#6c568b;
+}
+.box-20{
+    border:dashed #FFF 2px;
+    margin-top:70px;
+    padding-bottom:20px;
+}
+.box-20-title{
+    margin-left:auto;
+    margin-right:auto;
+    width:500px;
+    margin-top:-50px;
+    margin-bottom:20px;
+    text-align: center;
+    background:#6c568b;
+    border:dashed #FFF 2px;
+}
+.iconkiri-9{
+    position:absolute;
+    top:5%;
+    left:0;
+}
+.mobilkiri-9{
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+.iconkanan-9{
+    position:absolute;
+    top:20%;
+    right:0;
+}
+.iconkananbawah-9{
+    position:absolute;
+    bottom:5%;
+    right:4%;
+}
+.section-13{
+    background:repeat-x url('../images/13-bg.png') top left;
 }
 strong{
     font-family:latobold!important;
