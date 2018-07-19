@@ -543,11 +543,8 @@ p{
 .box-12{
     margin-top:120px;
 }
-.box-13,.box-14{
+.box-13,.box-14,.box-17{
     margin-bottom:20px;
-}
-.box-16{
-    height:300px;
 }
 .list-5-2{
     margin-bottom:20px;
@@ -559,6 +556,53 @@ p{
 .ico-5-2{
     margin-left:-300px;
     left:0;
+}
+.section-7{
+    position: relative;
+    background:#6c568b;
+}
+.box-16{
+    border:dashed #FFF 2px;
+    margin-top:70px;
+    padding-bottom:20px;
+    margin-bottom:100px;
+}
+.box-16-title{
+    margin-left:auto;
+    margin-right:auto;
+    width:500px;
+    margin-top:-50px;
+    margin-bottom:20px;
+    text-align: center;
+    background:#6c568b;
+    border:dashed #FFF 2px;
+}
+.title-7-1{
+    width:290px;
+    height:36px;
+    background: url('../images/6-ribbon-putih.png');
+    font-size: 1.5em;
+    margin-left:auto;
+    margin-right:auto;
+}
+.ico-kanan-7{
+    position:absolute;
+    top:25%;
+    right:0;
+}
+.ico-road-7{
+    position:absolute;
+    bottom:0;
+    right:0;
+    width: 100%;
+}
+.ico-kiri-7{
+    position:absolute;
+    top:20%;
+    left:0;
+}
+.box-17{
+    padding-top:20px;
 }
 .section-13{
     background:repeat-x url('../images/13-bg.png') top left;
