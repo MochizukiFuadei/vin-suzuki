@@ -648,7 +648,9 @@ p{
     padding: 1%;
 }
 .wrp{
-    padding:9%;
+    padding:15% 8%;
+    background:url('../images/7-kurung-putih.png') no-repeat center ;
+    background-size:90%;
 }
 .section-9{
     position: relative;
@@ -739,6 +741,9 @@ p{
     height:50px;
     background:#946dba;
 }
+.section-11{
+    position: relative;
+}
 .section-12{
     background:url('../images/kuis-background-rip.png') center;
     height:500px;
@@ -746,6 +751,16 @@ p{
 .ico-6{
     float:left;
     margin-top:8px;
+}
+.iconkiri-kuis{
+    position:absolute;
+    top:20%;
+    left:0;
+}
+.iconkanan-kuis{
+    position:absolute;
+    top:15%;
+    right:0;
 }
 #result{
     padding-top:120px;
