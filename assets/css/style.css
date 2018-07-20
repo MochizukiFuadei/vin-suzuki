@@ -702,6 +702,15 @@ p{
     padding:20px;
     margin-top:100px;
 }
+.bg-pink{
+    background: #FF3a90;
+}
+.bg-blue{
+    background: #6ccef5;
+}
+.bg-orange{
+    background: #f89a1c;
+}
 .iconkanan-10-1{
     position:absolute;
     top:20%;
@@ -765,8 +774,15 @@ p{
 #result{
     padding-top:120px;
 }
+.foot{
+    letter-spacing: 0.5vh;
+}
+.img-foot{
+    padding:20px 0;
+}
 .section-13{
-    background:repeat-x url('../images/13-bg.png') top left;
+    background:repeat-x url('../images/13-bg.png') bottom left;
+    padding-bottom:30px;
 }
 strong{
     font-family:latobold!important;
