@@ -730,6 +730,15 @@ p{
     bottom:5%;
     left:0;
 }
+.box-23{
+    border : dashed 2px #5dc6d1;
+    padding:5%;
+}
+.radio_a{
+    width:50px;
+    height:50px;
+    background:#946dba;
+}
 .section-13{
     background:repeat-x url('../images/13-bg.png') top left;
 }
