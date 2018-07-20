@@ -223,7 +223,7 @@ p{
 .road{
     position:absolute;
     width:100%;
-    top:29%;
+    top:35%;
 }
 .box-5{
     background:#f89a1c;
@@ -514,7 +514,7 @@ p{
     position:absolute;
     width:100%;
     z-index: 0;
-    top:330px;
+    top:16%;
     left:0;
 }
 .mobilkiri-5{
@@ -548,7 +548,7 @@ p{
     padding: 10px 30px;
 }
 .box-12{
-    margin-top:120px;
+    margin-top:50px;
 }
 .box-13,.box-14,.box-17{
     margin-bottom:20px;
@@ -623,7 +623,7 @@ p{
 }
 .mobilkanan-8{
     position:absolute;
-    bottom:5%;
+    bottom:0;
     right:0;
 }
 .box-17{
@@ -678,8 +678,9 @@ p{
 }
 .mobilkiri-9{
     position:absolute;
-    bottom:0;
+    bottom:-120px;
     left:0;
+    z-index: 1;
 }
 .iconkanan-9{
     position:absolute;
@@ -786,4 +787,13 @@ p{
 }
 strong{
     font-family:latobold!important;
+}
+.fakta-text{
+    width: 66%;
+    padding:2%;
+}
+.fakta-img{
+    width: 26%;
+    padding:2%;
+    margin-top:30px;
 }
