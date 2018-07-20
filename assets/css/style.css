@@ -525,7 +525,7 @@ p{
 }
 .mobilkanan-5{
     position:absolute;
-    bottom:70px;
+    bottom:8%;
     right:0;
     z-index: 1;
 }
@@ -767,10 +767,30 @@ p{
     top:20%;
     left:0;
 }
+.iconkiribawah-kuis{
+    position:absolute;
+    bottom:5%;
+    left:0;
+}
+.iconmobil-kuis{
+    position:absolute;
+    bottom:10%;
+    right:0;
+}
 .iconkanan-kuis{
     position:absolute;
     top:15%;
     right:0;
+}
+.segitiga-kuiskanan{
+    position:absolute;
+    top:15%;
+    right:20%;
+}
+.segitiga-kuiskiri{
+    position:absolute;
+    top:7%;
+    left:20%;
 }
 #result{
     padding-top:120px;
@@ -789,11 +809,11 @@ strong{
     font-family:latobold!important;
 }
 .fakta-text{
-    width: 66%;
+    width: 81%;
     padding:2%;
 }
 .fakta-img{
-    width: 26%;
+    width: 11%;
     padding:2%;
     margin-top:30px;
 }
