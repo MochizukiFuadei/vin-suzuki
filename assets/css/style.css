@@ -225,6 +225,11 @@ p{
     width:100%;
     top:35%;
 }
+.mbem-2{
+    position:absolute;
+    top:45%;
+    right:0;
+}
 .box-5{
     background:#f89a1c;
     padding:15px;
