@@ -739,6 +739,17 @@ p{
     height:50px;
     background:#946dba;
 }
+.section-12{
+    background:url('../images/kuis-background-rip.png') center;
+    height:500px;
+}
+.ico-6{
+    float:left;
+    margin-top:8px;
+}
+#result{
+    padding-top:120px;
+}
 .section-13{
     background:repeat-x url('../images/13-bg.png') top left;
 }
