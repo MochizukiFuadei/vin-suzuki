@@ -243,6 +243,12 @@ p{
     .box-9{
         margin-top:50px;
     }
+    .mobilkanan-5{
+        position:absolute;
+        bottom:8%;
+        right:0;
+        z-index: 1;
+    }
 }
 @media only screen and (min-width: 1367px) {
     .road{
@@ -265,6 +271,12 @@ p{
     }
     .box-9{
         margin-top:60px;
+    }
+    .mobilkanan-5{
+        position:absolute;
+        bottom:2%;
+        right:0;
+        z-index: 1;
     }
 }
 .mbem-2{
@@ -558,12 +570,6 @@ p{
     position:absolute;
     top:270px;
     left:0;
-    z-index: 1;
-}
-.mobilkanan-5{
-    position:absolute;
-    bottom:8%;
-    right:0;
     z-index: 1;
 }
 .mobiljarak-5{
