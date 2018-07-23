@@ -987,10 +987,7 @@
         <img src="assets/images/kuis-icon-kanan.png" class="iconkanan-kuis animated wow bounceIn">
         <img src="assets/images/kuis-mobil.png" class="iconmobil-kuis animated wow bounceIn">
     </div>
-    <div class='sections section-12'>
-        <div class="container center-align">
-            <div id="result"></div>
-        </div>
+    <div id="result">
     </div>
     <div class='sections section-13'>
         <div class="container">
@@ -1027,7 +1024,10 @@
                     if(arr[i]=="e"){e.push(arr[i]);}
                     if(arr[i]=="f"){f.push(arr[i]);}
                 }
-                var res = '<div class="section-sub-title animated wow tada">Jaga Keselamatan dengan</div>';
+                var res = '<div class="sections section-12">'
+                            +'<div class="container center-align">'
+                             +   '<div id="body-result">'
+                              +  '<div class="section-sub-title animated wow tada">Jaga Keselamatan dengan</div>';
                 if(a.length > b.length && a.length > c.length && a.length > d.length && a.length > e.length && a.length > f.length){
                     res += '<div class="section-title animated wow tada">A - Mudah Terdistraksi</div>';
                     res += '<p>Saat mengemudi, pikiran dan aktivitasmu banyak tertuju ke hal-hal di luar<br> kendaraan dan lalu lintas, misalnya bikin alis dan pasang bulu mata, menelepon<br> klien, bahkan memeriksa pekerjaan. Jadikan pekerjaan mengemudi sebagai<br> kegiatan penting, dan fokuslah. </p>';
@@ -1056,6 +1056,7 @@
                                         res += '<div class="section-title animated wow tada">B - Terbiasa Gugup</div>';
                                         res += '<p>Kamu gampang sekali gugup menghadapi situasi lalu lintas yang tak terduga.<br> Kamu juga sering bimbang, seperti <i>nyalip</i>, jangan, <i>nyalip</i>, jangan?<br> Masuk tol atau enggak? Kegugupan bisa diatasi dengan memupuk rasa percaya diri.<br> Belajar teknik <i>defensive driving</i> akan meningkatkan rasa percaya diri yang diperlukan. Manfaatkan aplikasi peta untuk memilih rute tercepat. </p>';
                                     }
+                    res += '</div></div></div>';
                     $('#result').html(res);
             }
         }
