@@ -1031,7 +1031,38 @@
             </div>
         </div>
     </div>
-
+    <div id="myquotes1" class="modal">
+            <div class="modal-content center-align cyan lighten-1">
+              <div class="row">
+                  <div class="m12 s12 col">
+                    <div class="list-box">
+                        <div class="deep-purple-text lighten-1 "><span class="white-text">LEBIH BANYAK : </span>A - Mudah Terdistraksi</div>
+                        <p class="font3">Saat mengemudi, pikiran dan aktivitasmu banyak tertuju ke hal-hal di luar<br> kendaraan dan lalu lintas, misalnya bikin alis dan pasang bulu mata, menelepon<br> klien, bahkan memeriksa pekerjaan. Jadikan pekerjaan mengemudi sebagai<br> kegiatan penting, dan fokuslah. </p>
+                    </div>
+                    <div class="list-box">
+                        <div class="deep-purple-text lighten-1 "><span class="white-text">LEBIH BANYAK : </span>B - Terbiasa Gugup</div>
+                        <p class="font3">Kamu gampang sekali gugup menghadapi situasi lalu lintas yang tak terduga.<br> Kamu juga sering bimbang, seperti <i>nyalip</i>, jangan, <i>nyalip</i>, jangan?<br> Masuk tol atau enggak? Kegugupan bisa diatasi dengan memupuk rasa percaya diri.<br> Belajar teknik <i>defensive driving</i> akan meningkatkan rasa percaya diri yang diperlukan. Manfaatkan aplikasi peta untuk memilih rute tercepat. </p>
+                    </div>
+                    <div class="list-box">
+                        <div class="deep-purple-text lighten-1 "><span class="white-text">LEBIH BANYAK : </span>C - Agresif dan Buru-buru</div>
+                        <p class="font3">Kamu belum puas kalau belum mendahului kendaraan lain. Kamu juga cenderung buru-buru karena takut terlambat.<br> Menang berkompetisi di jalan ini tidak berarti apa-apa dibanding keselamatan.<br> Jika yang jadi persoalan adalah sempitnya waktu, mulai sekarang biasakan untuk berangkat 10-15 menit lebih awal. </p>
+                    </div>
+                    <div class="list-box">
+                        <div class="deep-purple-text lighten-1 "><span class="white-text">LEBIH BANYAK : </span>D - Gampang Ngantuk</div>
+                        <p class="font3">Sepertinya kamu gampang terserang kantuk begitu duduk di dalam kendaraan.<br> Apalagi jika pemandangan di luar sana monoton. Saat kantuk datang selagi mengemudi, menepilah.<br> Buka kaca jendela dan hiruplah oksigen sebanyak-banyaknya.<br> Kalau perlu, tidur sebentar di <i>rest area</i>. </p>
+                    </div>
+                    <div class="list-box">
+                        <div class="deep-purple-text lighten-1 "><span class="white-text">LEBIH BANYAK : </span>E - Tukang Melamun</div>
+                        <p class="font3">Gaya mengemudi kamu sangat tenang, tetapi sesungguhnya pikiran kamu melayang-layang.<br> Saat kamu sadar bila tengah melamun, segera kembalikan lagi fokus dan perhatianmu ke jalan. </p>
+                    </div>
+                    <div class="list-box">
+                        <div class="deep-purple-text lighten-1 "><span class="white-text">LEBIH BANYAK : </span>F - Defensif</div>
+                        <p class="font3">Perhatian kamu mungkin gampang teralih seperti si Terdistraksi atau mungkin kamu suka melamun. Namun, kamu menyadari apa kecenderunganmu dan berusaha mengimbanginya dengan sikap ekstra hati-hati berdasarkan perhitungan logis. Menerapkan <i>defensive driving</i> akan menghindarkan kamu dari masalah yang disebabkan kecerobohan diri sendiri atau orang lain.  </p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
     <script src="assets/js/jquery.min.js"></script>
     <script>
         function answer(){
@@ -1083,7 +1114,7 @@
                                         res += '<div class="section-title animated wow tada">B - Terbiasa Gugup</div>';
                                         res += '<p class="font3">Kamu gampang sekali gugup menghadapi situasi lalu lintas yang tak terduga.<br> Kamu juga sering bimbang, seperti <i>nyalip</i>, jangan, <i>nyalip</i>, jangan?<br> Masuk tol atau enggak? Kegugupan bisa diatasi dengan memupuk rasa percaya diri.<br> Belajar teknik <i>defensive driving</i> akan meningkatkan rasa percaya diri yang diperlukan. Manfaatkan aplikasi peta untuk memilih rute tercepat. </p>';
                                     }
-                    res += '</div></div></div>';
+                    res += '<a class="waves-effect waves-light btn-small modal-trigger" href="#myquotes1">Lihat Hasil Lainnya</a></div></div></div>';
                     $('#result').html(res);
             }
         }
@@ -1092,6 +1123,10 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="assets/js/wow.min.js"></script>
     <script>
+            $(document).ready(function(){
+              // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+              $('.modal').modal();
+            });
             new WOW().init();</script>
 </body>
 </html>

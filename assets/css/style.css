@@ -1202,6 +1202,10 @@ body{
     background:repeat-x url('../images/13-bg.png') bottom left;
     padding-bottom:30px;
 }
+.list-box{
+    padding-bottom:10px;
+    border-bottom:solid 2px #FFF;
+}
 strong{
     font-family:latobold!important;
 }
