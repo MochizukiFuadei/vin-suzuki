@@ -448,6 +448,11 @@ body{
         right:0;
         width:25%;
     }
+    .ico-5{
+        z-index: 1;
+        margin-top:0;
+        width: 100%;
+    }
 }
 @media only screen and (min-width: 481px) {
 
@@ -702,6 +707,10 @@ body{
         position:absolute;
         top:28%;
         right:20%;
+    }
+    .ico-5{
+        z-index: 1;
+        margin-top:220px;
     }
 }
 @media only screen and (max-width: 1366px) {
@@ -1059,10 +1068,6 @@ body{
 }
 .list-5-2{
     margin-bottom:20px;
-}
-.ico-5{
-    z-index: 1;
-    margin-top:220px;
 }
 .section-7{
     position: relative;
