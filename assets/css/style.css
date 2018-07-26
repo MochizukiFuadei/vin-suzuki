@@ -82,12 +82,6 @@ p{
     float:right;
     margin-top:1%;
 }
-.colbro{
-    width:725px;
-    margin-right:auto;
-    margin-left:auto;
-    margin-bottom:10px;
-}
 .text-orange{
     color:#f89a1c;
 }
@@ -101,23 +95,12 @@ p{
     border: 2px dashed #f89a1c;
     padding:10px 30px;
 }
-.box-2{
-    background:url('../images/1-box-ungu.png') no-repeat;
-    background-size:100%;
-    height:470px;
-}
 .title-box-2{
     font-size:2em;
     color:#ffff00;
     font-family: latobold;
     letter-spacing: 1vh;
     margin-bottom:10px;
-}
-.body-box-2{
-    color:#FFF;
-    font-size:1.4em;
-    line-height: 1.375em;
-    font-family: latolight;
 }
 .sub-box-2{
     padding-left:50px;
@@ -169,34 +152,10 @@ p{
 .italic{
     font-style: italic;
 }
-.section-1{
-    background:url('../images/background-header.png') center bottom no-repeat;
-    background-size:100%;
-    height:650px;
-    position:relative;
-}
-.ignis{
-    position:absolute;
-    bottom:0;
-    left:0;
-}
-.baleno{
-    position:absolute;
-    bottom:0;
-    right:0;
-}
 .building{
     position:absolute;
     bottom:30%;
     right:0;
-}
-.mountain{
-    position:absolute;
-    bottom:0;
-    left:0;
-}
-.head-text{
-    padding-top:10%;
 }
 .section-2{
     background:#FFF;
@@ -206,7 +165,9 @@ p{
     margin-left:auto;
     margin-right:auto;
     background:url('../images/2-ribbon-oren.png') no-repeat;
+    background-size:100%;
     width:450px;
+    max-width:90%;
     height:56px;
     text-align:center;
     color:#FFF;
@@ -219,6 +180,186 @@ p{
     position:relative;
     background:url('../images/2-background-grid.png') repeat;
     padding-bottom:30px;
+}
+@media only screen and (max-width: 480px) {
+
+    .section-1{
+        background:url('../images/background-header.png') center top #FFF no-repeat;
+        background-size:100%;
+        height:240px;
+        position:relative;
+    }
+    .ignis{
+        position:absolute;
+        bottom:0;
+        width:25%;
+        left:0;
+    }
+    .baleno{
+        position:absolute;
+        bottom:0;
+        width:25%;
+        right:0;
+    }
+    .head-text{
+        padding-top:10%;
+        width:70%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .colbro{
+        width:100%;
+        margin-right:auto;
+        margin-left:auto;
+        margin-bottom:10px;
+    }
+    .body-box-2{
+        color:#FFF;
+        font-size:1.2em;
+        line-height: 1.375em;
+        font-family: latolight;
+    }
+    .title-head-4{
+        margin-left:auto;
+        margin-right:auto;
+        background:url('../images/3-ribbon-pink.png') no-repeat;
+        background-size:100%;
+        width:80%;
+        max-width:90%;
+        height:56px;
+        text-align:center;
+        color:#FFF;
+        font-size: 3vh;
+        font-family: latobold;
+        letter-spacing: 0.3vh;
+    }
+    .ico-5-2{
+        width:100%;
+        left:0;
+    }
+    .box-2{
+        background:url('../images/1-box-ungu.png') no-repeat;
+        background-size:100%;
+        height:350px;
+    }
+    .mountain{
+        position:absolute;
+        width:15%;
+        bottom:0;
+        left:0;
+    }
+    .mobilkanan{
+        position: absolute;
+        top:7.5%;
+        right:0;
+        width:30%;
+        
+    }
+    .mau{
+        width:560px;
+        max-width: 100%;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom:25px;
+    }
+    .ico-kiri-7{
+        position:absolute;
+        top:20%;
+        left:0;
+        width:10%;
+    }
+    .ico-kanan-7{
+        position:absolute;
+        top:25%;
+        right:0;
+        width:20%;
+    }
+}
+@media only screen and (min-width: 481px) {
+
+    .section-1{
+        background:url('../images/background-header.png') center top #FFF no-repeat;
+        background-size:100%;
+        height:650px;
+        position:relative;
+    }
+    .ignis{
+        position:absolute;
+        bottom:0;
+        left:0;
+    }
+    .baleno{
+        position:absolute;
+        bottom:0;
+        right:0;
+    }
+    .head-text{
+        padding-top:10%;
+        width:75%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .colbro{
+        width:725px;
+        margin-right:auto;
+        margin-left:auto;
+        margin-bottom:10px;
+    }
+    .body-box-2{
+        color:#FFF;
+        font-size:1.4em;
+        line-height: 1.375em;
+        font-family: latolight;
+    }
+    .title-head-4{
+        margin-left:auto;
+        margin-right:auto;
+        background:url('../images/3-ribbon-pink.png') no-repeat;
+        width:660px;
+        height:56px;
+        text-align:center;
+        color:#FFF;
+        font-size: 2.5em;
+        font-family: latobold;
+        letter-spacing: 0.3vh;
+    
+    }
+    .ico-5-2{
+        margin-left:-300px;
+        left:0;
+    }
+    .box-2{
+        background:url('../images/1-box-ungu.png') no-repeat;
+        background-size:100%;
+        height:470px;
+    }
+    .mountain{
+        position:absolute;
+        bottom:0;
+        left:0;
+    }
+    .mobilkanan{
+        position: absolute;
+        top:10%;
+        right:5%;
+        
+    }
+    .mau{
+        width:560px;
+        max-width: 100%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .ico-kiri-7{
+        position:absolute;
+        top:20%;
+        left:0;
+    }
+    .ico-kanan-7{
+        position:absolute;
+        top:25%;
+        right:0;
+    }
 }
 @media only screen and (max-width: 1366px) {
     .road{
@@ -344,19 +485,6 @@ p{
     background:#FFF;
 }
 
-.title-head-4{
-    margin-left:auto;
-    margin-right:auto;
-    background:url('../images/3-ribbon-pink.png') no-repeat;
-    width:660px;
-    height:56px;
-    text-align:center;
-    color:#FFF;
-    font-size: 2.5em;
-    font-family: latobold;
-    letter-spacing: 0.3vh;
-
-}
 .segitiga1{
     position:absolute;
     top:0;
@@ -379,6 +507,9 @@ p{
 .impoinr{
     margin-top:10px;
     text-align: left;
+}
+.img-res{
+    max-width:100%;
 }
 .poin1{
     z-index: 1;
@@ -429,7 +560,7 @@ p{
 }
 .section-5-title{
     text-align: center;
-    font-size:3em;
+    font-size:5vh;
     color:#ffff00;
     font-family: latobold;
     letter-spacing: 1.5vh;
@@ -449,6 +580,7 @@ p{
     margin-left:auto;
     margin-right:auto;
     width:500px;
+    max-width:90%;
     margin-top:-50px;
     margin-bottom:20px;
     text-align: center;
@@ -464,14 +596,13 @@ p{
     color:#ffff00;
     font-family: latobold;
 }
-.mau{
-    width:540px;
-    margin-left:auto;
-    margin-right:auto;
+.mau-img{
+    width:20%;
 }
 .mau-t{
+    width:78%;
     margin-top:20px;
-    margin-left:10px;
+    margin-left:2%;
 }
 .box-10-1{
     margin:20px;
@@ -518,12 +649,6 @@ p{
     right:5%;
     
 }
-.mobilkanan{
-    position: absolute;
-    top:10%;
-    right:5%;
-    
-}
 .awankiri{
     position: absolute;
     top:40%;
@@ -551,7 +676,8 @@ p{
     margin-left:auto;
     margin-right:auto;
     width:500px;
-    margin-top:-20px;
+    max-width: 100%;
+    margin-top:-1%;
     margin-bottom:40px;
     text-align: center;
     border:dashed #362f2d 2px;
@@ -600,10 +726,6 @@ p{
     z-index: 1;
     margin-top:220px;
 }
-.ico-5-2{
-    margin-left:-300px;
-    left:0;
-}
 .section-7{
     position: relative;
     background:#6c568b;
@@ -618,6 +740,7 @@ p{
     margin-left:auto;
     margin-right:auto;
     width:500px;
+    max-width:90%;
     margin-top:-50px;
     margin-bottom:20px;
     text-align: center;
@@ -632,21 +755,11 @@ p{
     margin-left:auto;
     margin-right:auto;
 }
-.ico-kanan-7{
-    position:absolute;
-    top:25%;
-    right:0;
-}
 .ico-road-7{
     position:absolute;
     bottom:0;
     right:0;
     width: 100%;
-}
-.ico-kiri-7{
-    position:absolute;
-    top:20%;
-    left:0;
 }
 .ico-mobil-7{
     position:absolute;
